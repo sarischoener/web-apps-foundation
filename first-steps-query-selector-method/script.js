@@ -33,52 +33,6 @@ resetBtn.addEventListener("click", () => {
   resultEl.innerText = "";
 });
 
-/* ==========================
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <input id="input-password" type="password" value="" />
-      <button id="btn-password">Show Password</button>
-    </div>
-    <script src="script.js"></script>
-  </body>
-</html>
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 20%;
-}
-"use strict";
-// variablen vergeben
-// type vom Input tag von "password" zu "text" ändern
-
-const inputPassword = document.querySelector("#input-password");
-const btnPassword = document.querySelector("#btn-password");
-
-btnPassword.addEventListener("click", () => {
-  if (inputPassword.type === "password") {
-    inputPassword.type = "text";
-    btnPassword.innerText = "Hide Password";
-    console.log("type ist text");
-  } else if (inputPassword.type === "text") {
-    inputPassword.type = "password";
-    btnPassword.innerText = "Show Password";
-    console.log("type ist password");
-  }
-}); */
-
 // light switch
 
 /* btnLight.addEventListener("click", () => {
