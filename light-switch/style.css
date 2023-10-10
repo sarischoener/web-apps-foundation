@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+}
+
+.body-dark {
+  background-color: rgb(31, 30, 30);
+}
+#btn-light {
+  margin-top: 45%;
+  border: 5px solid black;
+  font-size: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.btn-light-on {
+  color: white;
+  background-color: rgb(31, 30, 30);
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0rem 0rem 5rem 3rem yellow;
+}
