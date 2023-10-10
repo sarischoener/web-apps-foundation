@@ -32,10 +32,3 @@ resetBtn.addEventListener("click", () => {
   inputElB.value = "";
   resultEl.innerText = "";
 });
-
-// light switch
-
-/* btnLight.addEventListener("click", () => {
-    btnLight.classList.toggle("btn-light-on");
-    body.classList.toggle("body-dark");
-  } */
