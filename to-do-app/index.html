@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Todo App</h1>
+    </header>
+    <main>
+        <div>
+            <label>All</label>
+            <input type="radio" name="All" id="radio-all" checked>
+        </div>
+        <div>
+            <label>Open</label>
+            <input type="radio" name="All" id="radio-open">
+        </div>
+        <div>
+            <label>Done</label>
+            <input type="radio" name="All" id="radio-done">
+        </div>
+    </main>
+    <button id="btn-remove">Remove Done Todos</button>
+    <div class="list-wrapper">
+        <input type="text" id="new-todo" placeholder="Todo"><button id="btn-new-todo">Add Todo</button>
+        <ul id="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
