@@ -2,36 +2,47 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo App</title>
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css" . />
 </head>
 
-<body>
-    <header>
-        <h1>Todo App</h1>
-    </header>
-    <main>
-        <div>
-            <label>All</label>
-            <input type="radio" name="All" id="radio-all" checked>
-        </div>
-        <div>
-            <label>Open</label>
-            <input type="radio" name="All" id="radio-open">
-        </div>
-        <div>
-            <label>Done</label>
-            <input type="radio" name="All" id="radio-done">
-        </div>
-    </main>
-    <button id="btn-remove">Remove Done Todos</button>
-    <div class="list-wrapper">
-        <input type="text" id="new-todo" placeholder="Todo"><button id="btn-new-todo">Add Todo</button>
-        <ul id="list"></ul>
-    </div>
 
+<body>
+    <div class="container">
+        <header>
+            <h1>ToDo App</h1>
+        </header>
+        <main>
+            <div>
+                <label>All</label>
+                <!--
+                alle input/type=radio benötigen den gleichen "name" damit sie zusammenhängen. "checked" in einem input feld = der default ausgelöste radio button.
+                -->
+                <input type="radio" name="filter" id="radioInputAll" checked />
+            </div>
+            <div>
+                <label>Open</label>
+                <input type="radio" name="filter" id="radioInputOpen"></input>
+            </div>
+            <div>
+                <label>Done</label>
+                <input type="radio" name="filter" id="radioInputDone"></input>
+            </div>
+
+            <button id="remove">Remove Done Todos</button>
+
+            <div>
+                <input type="text" placeholder="What TODO?" id="newToDoInput" name="todo"></input>
+                <button id="add-todo">Add</button>
+                <ul id="list">
+                    <li></li>
+                </ul>
+            </div>
+    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 
